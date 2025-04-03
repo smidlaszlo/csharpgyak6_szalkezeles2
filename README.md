@@ -1,0 +1,1 @@
+# csharpgyak6_2_szalkezeles2
