@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_ThreadPool_4", "6_ThreadP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Interlocked", "7_Interlocked\7_Interlocked.csproj", "{1BC42C9E-AE81-4A5A-A009-340307A10E51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_ReaderWriterLock", "8_ReaderWriterLock\8_ReaderWriterLock.csproj", "{89A29F90-1942-4370-AD18-A366D40165F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Upgrade_Downgrade", "9_Upgrade_Downgrade\9_Upgrade_Downgrade.csproj", "{304B9C34-5D80-4122-B611-92108BC68759}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,8 +81,27 @@ Global
 		{1BC42C9E-AE81-4A5A-A009-340307A10E51}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1BC42C9E-AE81-4A5A-A009-340307A10E51}.Release|x86.ActiveCfg = Release|Any CPU
 		{1BC42C9E-AE81-4A5A-A009-340307A10E51}.Release|x86.Build.0 = Release|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Debug|x86.Build.0 = Debug|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{89A29F90-1942-4370-AD18-A366D40165F7}.Release|x86.Build.0 = Release|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Debug|x86.Build.0 = Debug|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Release|x86.ActiveCfg = Release|Any CPU
+		{304B9C34-5D80-4122-B611-92108BC68759}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5AA3656-D1BB-4EAD-83FB-E4C23599132C}
 	EndGlobalSection
 EndGlobal
